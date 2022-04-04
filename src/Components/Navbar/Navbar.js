@@ -23,7 +23,7 @@ const[clicked,setClicked]=useState(false)
       <div className='menu-icon' onClick={handleClick}>
       <i className={clicked ? 'bug icon' : 'bars icon'}></i>
       </div>
-       <ul className='menu-list'>{menulist}</ul>
+       {clicked ? <ul className='menu-list'>{menulist}</ul> : ""}
      </nav>
 
   )
