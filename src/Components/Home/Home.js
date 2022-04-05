@@ -1,8 +1,9 @@
 import "./Home.css"
+import Hero from "./Hero"
 const Home = () => {
     return ( 
         <div className="home">
-            Home
+            <Hero/>
         </div>
      );
 }

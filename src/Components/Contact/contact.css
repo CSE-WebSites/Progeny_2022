@@ -13,7 +13,7 @@
 }
 .contact_title > h2{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     margin: 14px 0;
 }
 .social_icons{
@@ -26,6 +26,9 @@
     .contact_form_container{
         display: grid;
         grid-template-columns: auto;
+    }
+    .contact_title > h2{
+        font-size: 30px;
     }
     .contact{
         padding: 10px;
