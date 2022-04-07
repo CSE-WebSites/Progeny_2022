@@ -1,9 +1,177 @@
-import React from 'react'
+import { useState } from "react";
+import "./Register.css";
+import { toast,Toaster } from "react-hot-toast";
+import {addDoc,collection} from "firebase/firestore";
+import { db } from "../../firebase";
+import axios from "axios";
+import Thanks from "./Thanks";
+const Register = ()=>{
 
-const Register = () => {
-  return (
-    <div className='Register'>Register</div>
-  )
+  const [name,setName]  = useState("");
+  const [email,setEmail] = useState("");
+  const [phn,setPhn] = useState("");
+  const [clg,setClg] = useState("");
+  const [department,setDepartment] = useState("");
+  const [year,setyear] = useState("");
+  const [event,setEvent] = useState("");
+  const [thanks,setThanks] = useState(false);
+  const [studentInfo,setStudentInfo] = useState({});
+  // let [loading, setLoading] = useState(false);
+
+  const nameChangeHandler = (e)=>{
+    setName(e.target.value);
+  }
+  const emailChangeHandler = (e)=>{
+    setEmail(e.target.value);
+  }
+  const phnChangeHandler = (e)=>{
+    setPhn(e.target.value);
+  }
+  const clgChangeHandler = (e)=>{
+    setClg(e.target.value);
+  }
+  const departmentChangeHandler = (e)=>{
+    setDepartment(e.target.value);
+  }
+  const yearChangeHandler = (e)=>{
+    setyear(e.target.value);
+  }
+  const changeEventHandler = (eventType)=>{
+    setEvent(eventType);
+  }
+
+  const RegisterFormHandler = async(e)=>{
+
+    e.preventDefault();
+
+    const uniqueId = Math.floor(Math.random()*90000) + 10000;
+
+    setStudentInfo({id:uniqueId,email});
+
+    const details = {
+        id:"PROGENI-"+uniqueId,
+        name,
+        email,
+        phn,
+        clg,
+        department,
+        year,
+        event,
+    }
+
+    // setLoading(true);
+
+    const mailData = {
+        to : email,
+        subject:"Registered for Progeni Events",
+        text: "PROGENI-"+uniqueId,
+        userDetails:details
+    }
+
+    const result = await axios.post("https://stark-earth-12970.herokuapp.com/v1/progeni-mail/text-Mail",mailData);
+
+    if(result.status === 200)
+    {
+          // Add a new document in collection "cities"
+          await addDoc(collection(db, "students"), details);
+          toast.success("Registered Successfull");
+          window.setTimeout(()=>{
+            setThanks(true);
+          },3000);
+          // reset();
+          // setLoading(false);
+    }
+    else{
+        toast.error("Registeration failed :( please contact our team");
+        // reset();
+        // setLoading(false);
+        return;
+    }    
+  }
+
+
+return(  
+    <div className="register_container">
+      {
+        thanks ? <Thanks studentAbstract={studentInfo}/> :
+     <> 
+    <div className="title">Registration</div>
+    <Toaster/>
+    <div className="content">
+      
+      <form onSubmit={RegisterFormHandler}>
+        <div className="user-details">
+
+          <div className="input-box">
+            <span className="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" value={name} onChange={nameChangeHandler} required />
+          </div>
+          
+          <div className="input-box">
+            <span className="details">Email</span>
+            <input type="text" placeholder="Enter your email" value={email} onChange={emailChangeHandler} required />
+          </div>
+
+          <div className="input-box">
+            <span className="details">Phone Number</span>
+            <input type="tel" placeholder="Enter your number" value={phn} onChange={phnChangeHandler} required />
+          </div>
+
+          <div className="input-box">
+            <span className="details">College</span>
+            <input type="text" placeholder="Enter your college name" value={clg} onChange={clgChangeHandler} required />
+          </div>
+
+          <div className="input-box">
+            <span className="details">Department</span>
+            <input type="text" placeholder="Enter your Dep name" value={department} onChange={departmentChangeHandler} required />
+          </div>
+
+          <div className="input-box">
+            <span className="details">Year</span>
+            <input type="text" placeholder="Pursuing Year" value={year} onChange={yearChangeHandler}  required />
+          </div>
+
+        </div>
+
+        <div className="gender-details">
+          <span className="gender-title">Event</span>
+          <input type="radio" name="gender" id="dot-1" />
+          <input type="radio" name="gender" id="dot-2" />
+          <input type="radio" name="gender" id="dot-3" />
+          <input type="radio" name="gender" id="dot-4" />
+          <input type="radio" name="gender" id="dot-5" />
+          <div className="category">
+            <label htmlFor="dot-1" onClick={()=>changeEventHandler("Technical")}>
+              <span className="dot one"></span>
+              <span className="gender">Technical</span>
+            </label>
+            <br />
+            <label htmlFor="dot-2" onClick={()=>changeEventHandler("Non-Technical")}>
+              <span className="dot two"></span>
+              <span className="gender">Non technical</span>
+            </label>
+            <br />                     
+          </div>
+          <br />
+    
+          <div className="payment">
+            <p className="payment1">Payment :</p>
+            <p className="ph">ph:9789784979-(Aravind)<br/>ph:6379115344-(Surya)</p>
+            <p className="upi">UPI ID :</p>
+            <p> Harish@123icici</p>
+            <br />
+            <p>Further Details : <button className="b1" disabled>ph:9047067413-(Chandru)<br />ph:6379115344-(Surya)</button></p>
+          </div>  
+        </div>
+
+        <div className="button">
+          <input type="submit" value="Register" />
+        </div>
+
+      </form>
+    </div> </>}
+  </div>
+);
 }
-
-export default Register
+export default Register;
