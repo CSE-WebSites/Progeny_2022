@@ -5,6 +5,7 @@ import {addDoc,collection} from "firebase/firestore";
 import { db } from "../../firebase";
 import axios from "axios";
 import Thanks from "./Thanks";
+import { PulseLoader } from "react-spinners";
 const Register = ()=>{
 
   const [name,setName]  = useState("");
@@ -16,7 +17,7 @@ const Register = ()=>{
   const [event,setEvent] = useState("");
   const [thanks,setThanks] = useState(false);
   const [studentInfo,setStudentInfo] = useState({});
-  // let [loading, setLoading] = useState(false);
+  let [loading, setLoading] = useState(false);
 
   const nameChangeHandler = (e)=>{
     setName(e.target.value);
@@ -59,7 +60,7 @@ const Register = ()=>{
         event,
     }
 
-    // setLoading(true);
+    setLoading(true);
 
     const mailData = {
         to : email,
@@ -78,13 +79,11 @@ const Register = ()=>{
           window.setTimeout(()=>{
             setThanks(true);
           },3000);
-          // reset();
-          // setLoading(false);
+          setLoading(false);
     }
     else{
         toast.error("Registeration failed :( please contact our team");
-        // reset();
-        // setLoading(false);
+        setLoading(false);
         return;
     }    
   }
@@ -155,18 +154,18 @@ return(
           </div>
           <br />
     
-          <div className="payment">
+          {/* <div className="payment">
             <p className="payment1">Payment :</p>
             <p className="ph">ph:9789784979-(Aravind)<br/>ph:6379115344-(Surya)</p>
             <p className="upi">UPI ID :</p>
             <p> Harish@123icici</p>
             <br />
             <p>Further Details : <button className="b1" disabled>ph:9047067413-(Chandru)<br />ph:6379115344-(Surya)</button></p>
-          </div>  
+          </div>   */}
         </div>
 
         <div className="button">
-          <input type="submit" value="Register" />
+          <button type="submit">{loading ? <PulseLoader loading={loading} margin={2} color="#ffff" size={8}/> : "Run"}</button>
         </div>
 
       </form>
