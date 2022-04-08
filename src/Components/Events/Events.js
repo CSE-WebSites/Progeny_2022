@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import React,{useState} from 'react';
+import React from 'react';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
@@ -101,7 +101,7 @@ export default function Events() {
             <div>
                <SwiperSlide key={item.id} >
          <div className="image">
-            <img src= {item.image}/>
+            <img src= {item.image} alt="loading"/>
          </div>
         <div className="title">
                 <h4>{item.name} </h4>
@@ -128,7 +128,7 @@ export default function Events() {
       </Swiper>
 
 
-      {/* <div className="area" >
+      <div className="area" >
             <ul className="circles">
                     <li></li>
                     <li></li>
@@ -141,7 +141,7 @@ export default function Events() {
                     <li></li>
                     <li></li>
             </ul>
-    </div > */}
+    </div >
       
       </div>
     </div>
