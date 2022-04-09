@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Footer.css";
+import { Link } from 'react-router-dom';
 
 function Footer()
 {
@@ -9,29 +10,29 @@ function Footer()
           <div className="row">
             <div className="col-sm-12 col-md-6">
               <h6>About</h6>
-              <p className="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+              <p className="text-justify">The birth place of futuristic engineering of the future world with creamy bunch of inquisitive brains.With well equipped laboraties and qualified staff where experience speaks,the department act as a base on which talented and innovative circuitry is built.</p>
             </div>
   
             <div className="col-xs-6 col-md-3">
-              <h6>Categories</h6>
+              <h6>Events</h6>
               <ul className="footer-links">
-                <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-                <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
-                <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
-                <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
-                <li><a href="http://scanfcode.com/category/android/">Android</a></li>
-                <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+                <li>Mr.Engineer</li>
+                <li>PPT</li>
+                <li>Code Debugging</li>
+                <li>Web Designing</li>
+                <li>Googling</li>
+                <li>Marketing</li>
               </ul>
             </div>
   
             <div className="col-xs-6 col-md-3">
               <h6>Quick Links</h6>
               <ul className="footer-links"> 
-                <li><a href="http://scanfcode.com/about/">Home</a></li>
-                <li><a href="http://scanfcode.com/about/">Events</a></li>
-                <li><a href="http://scanfcode.com/about/">Register</a></li>
-                <li><a href="http://scanfcode.com/about/">About us</a></li>
-                <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/events">Events</Link></li>
+                <li><Link to="/register">Register</Link></li>
+                <li><Link to="/about-us">About us</Link></li>
+                <li><Link to="/contact-us">Contact Us</Link></li>
               </ul>
             </div>
           </div>
@@ -40,16 +41,15 @@ function Footer()
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-sm-6 col-xs-12">
-              <p className="copyright-text">Copyright &copy; 2022 All Rights Reserved by<a href="http://scanfcode.com/category/templates/"> CSE</a>.
+              <p className="copyright-text">Copyright &copy; 2022 All Rights Reserved by<a href="https://gcesalem.edu.in/20/department-computer-science-and-engineering" target="_blank" rel="noreferrer"> CSE</a>.
               </p>
             </div>
   
             <div className="col-md-4 col-sm-6 col-xs-12">
               <ul className="social-icons">
-                <li><a className="facebook" href="http://scanfcode.com/category/templates/"><i className="fa fa-facebook"></i></a></li>
-                <li><a className="twitter" href="http://scanfcode.com/category/templates/"><i className="fa fa-twitter"></i></a></li>
-                <li><a className="dribbble" href="http://scanfcode.com/category/templates/"><i className="fa fa-dribbble"></i></a></li>
-                <li><a className="linkedin" href="http://scanfcode.com/category/templates/"><i className="fa fa-linkedin"></i></a></li>   
+                <li><a className="facebook" href="https://www.instagram.com/invites/contact/?i=60s4ej5h8vp4&utm_content=o7gr8n4" target="_blank" rel="noreferrer"><i className="fa fa-instagram"></i></a></li>
+                <li><a className="twitter" href="mailto:progenit22@gmail.com" target="_blank" rel="noreferrer"><i className="fa fa-envelope"></i></a></li>
+                <li><a className="dribbble" href="https://wa.me/9047067413" target="_blank" rel="noreferrer"><i className="fa fa-whatsapp" ></i></a></li>  
               </ul>
             </div>
           </div>
