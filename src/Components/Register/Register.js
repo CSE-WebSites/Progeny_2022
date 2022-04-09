@@ -93,9 +93,10 @@ return(
     <div className="register_container">
       {
         thanks ? <Thanks studentAbstract={studentInfo}/> :
-     <> 
+     <div className="registration_form"> 
+     <Toaster/>
     <div className="title">Registration</div>
-    <Toaster/>
+    
     <div className="content">
       
       <form onSubmit={RegisterFormHandler}>
@@ -169,7 +170,9 @@ return(
         </div>
 
       </form>
-    </div> </>}
+    </div>
+    <div className="blob"></div> 
+    </div>}
   </div>
 );
 }
