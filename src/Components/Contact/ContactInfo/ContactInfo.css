@@ -35,7 +35,7 @@
 .contact_info{
     display: grid;
     grid-template-columns: auto;
-    background: #8df00b;
+    background: linear-gradient(90deg,#0ba360,#3cba92,#30dd8a,#2bb673);
     padding: 25px;
 }
 .contact_social:hover{
