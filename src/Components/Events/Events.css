@@ -9,9 +9,9 @@
 .swiper-slide {
  
   position: relative;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ height:300px;
   overflow: hidden;
-  
+ 
   min-width: 250px;
   max-width: 300px;
   width: 100%;
@@ -60,7 +60,8 @@
   -o-object-fit: cover;
      object-fit: cover;
      backface-visibility: hidden;
-}
+
+     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;    }
 
 .swiper-slide:hover:before {
   top: 0px;
@@ -123,14 +124,16 @@
   padding:0;
   display: block;
 }
-
+.swiper-button-next, .swiper-button-prev {
+ 
+  top: 33%;}
 .container .swiper-container {
   width: 70%;
   position: absolute;
   left: 50%;
   bottom: 0vw;
-transform: translate(-50%,-50%);
-      top:50%;
+transform: translate(-50%,-195%);
+      top:69%;
   z-index: 2;
   padding-bottom: 3vw;
 }
@@ -212,10 +215,11 @@ transform: translate(-50%,-50%);
 }
 .area{
 
-  background: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673) !important;
+  
+    background-color: #2a2a72 !important;
   width: 100%;
 
-    height: 100vh;
+    height: 87vh;
   
  
 }
@@ -227,6 +231,7 @@ transform: translate(-50%,-50%);
   width: 100%;
   height: 100%;
   overflow: hidden;
+  padding:0px;
 }
 
 .circles li{
@@ -237,7 +242,13 @@ transform: translate(-50%,-50%);
   height: 20px;
   background: rgba(255, 255, 255, 0.2);
   animation: animate 25s linear infinite;
-  bottom: -150px;
+  bottom: 950px;
+  
+}
+
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 183px;
   
 }
 
@@ -339,4 +350,3 @@ transform: translate(-50%,-50%);
 ul.circles{
   margin:0px;
 }
-

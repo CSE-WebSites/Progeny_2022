@@ -6,7 +6,7 @@
   }
   
   .navbar {
-    background-color:black;
+    position: absolute !important;
     height: 80px;
     display: flex;
     justify-content: center;
