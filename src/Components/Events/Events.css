@@ -35,7 +35,7 @@
   left: 0px;
   right: 0px;
   top: 100%;
- 
+ height:300px;
   content: '';
   background-color: rgba(51, 51, 51, 0.9); 
   -webkit-transition: all 0.25s ease;
@@ -251,7 +251,15 @@ transform: translate(-50%,-195%);
   bottom: 183px;
   
 }
-
+@media (max-width: 768px){
+.container .swiper-container {
+    bottom: -5vw;
+    
+}}
+@media (max-width: 768px){
+ .swiper-slide .title{
+   top:30%;
+  }}
 .circles li:nth-child(1){
   left: 25%;
   width: 80px;
