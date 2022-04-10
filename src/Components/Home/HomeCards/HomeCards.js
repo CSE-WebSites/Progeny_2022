@@ -38,12 +38,12 @@ const HomeCards = () => {
         },
         {
             name:"Photography",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptat Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?🤙",
+            short:"Photographs capture those exciting moments that are gone forever, impossible to recreate🤙",
             icon:"fas fa-photo-video"
         },
         {
             name:"Connection",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptat Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?🙌",
+            short:"Show case your logical connecting skills and resurge your memory to find solutions for this amazing event🙌",
             icon:"fas fa-network-wired"
         },
     ]
