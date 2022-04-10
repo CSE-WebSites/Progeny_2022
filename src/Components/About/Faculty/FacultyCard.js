@@ -1,12 +1,12 @@
 import React from 'react'
- import Image1 from '../Faculty/faculty/Kalpana_mam.jpg'
-  import Image2 from '../Faculty/faculty/Tharani_mam.png'
-  import Image3 from '../Faculty/faculty/Manimala_mam.png'
- import Image4 from '../Faculty/faculty/Nithya_mam.png'
- import Image5 from '../Faculty/faculty/GoldaBrunet_mam.jpg'
-  import Image6 from '../Faculty/faculty/Rani_mam.png'
-  import Image7 from '../Faculty/faculty/Ruba_mam.png'
-  import './FacultyCard.css'
+import Image1 from '../Faculty/faculty/Kalpana_mam.jpg'
+import Image2 from '../Faculty/faculty/Tharani_mam.png'
+import Image3 from '../Faculty/faculty/Manimala_mam.png'
+import Image4 from '../Faculty/faculty/Nithya_mam.png'
+import Image5 from '../Faculty/faculty/GoldaBrunet_mam.jpg'
+import Image6 from '../Faculty/faculty/Rani_mam.png'
+import Image7 from '../Faculty/faculty/Ruba_mam.png'
+import './FacultyCard.css'
 
 const FacultyCard = () => {
   return (
