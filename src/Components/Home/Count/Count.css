@@ -1,0 +1,20 @@
+.participants_count{
+    font-size: 20px;
+    margin: 40px 0;
+    font-weight: 500;
+}
+
+.Counter{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+@media(max-width:1023px){
+    .participants_count{
+        font-size: 20px;
+    }
+    .participants_count > span:last-child{
+        font-weight: 600;
+    }
+}

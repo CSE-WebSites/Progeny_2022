@@ -5,22 +5,22 @@ const HomeCards = () => {
     const techEvents = [
         {
             name:"Mr.Engineer",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?",
+            short:"Project your skills extend your knowledge break the limits and design the unimaginable🤟",
             icon:"fas fa-cogs"
         },
         {
             name:"PPT",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?",
+            short:"Everything begins with an idea express your marvelous ideas and lets work it out together👊",
             icon:"fas fa-file-powerpoint"
         },
         {
             name:"Code Debugging",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?",
+            short:"Bugs are the best fuel for a true coder they shape you into the inevitable🤙",
             icon:"fas fa-bug"
         },
         {
             name:"Web Designing",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?",
+            short:"Lets design the most magnificient pages to induce traffic and provide services🙌",
             icon:"fas fa-code"
         },
     ]
@@ -28,22 +28,22 @@ const HomeCards = () => {
     const nonTechEvents = [
         {
             name:"Googling",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?",
+            short:"Google is something more than a search engine show off your googling skills and find modern solutions🤘",
             icon:"fab fa-google"
         },
         {
             name:"Marketing",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?",
+            short:"The world is full of ads reveal your new marketing strategies to eliminate these exasperating strategies👊",
             icon:"fas fa-chart-bar"
         },
         {
             name:"Photography",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?",
+            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptat Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?🤙",
             icon:"fas fa-photo-video"
         },
         {
             name:"Connection",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?",
+            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptat Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?🙌",
             icon:"fas fa-network-wired"
         },
     ]
