@@ -2,6 +2,11 @@
     --color: #4973ff;
   }
   
+.i_progen{
+  color: #0ba360;
+  font-size: 85px;
+}
+
   .content {
     max-width: 600px;
     margin: 0 auto;
@@ -137,6 +142,9 @@
 
   
   @media(max-width:993px){
+    .i_progen{
+      font-size: 40px;
+    }
     .waves{
         height: 160px;
     }
