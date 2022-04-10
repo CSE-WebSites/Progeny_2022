@@ -1,69 +1,144 @@
-import "./About.css"
+import React from 'react'
+import Aboutcse from './Aboutcse/Aboutcse'
+import FacultyCard from './Faculty/FacultyCard'
+import './About.css'
+import Vedio from './vedio/Vedio'
+
 const About = () => {
-    return ( 
-        <div className="about">
-
-     <div className="about__container">
-         <h1>About <span className="us">Us</span></h1>
-       
-         <div className="about__content">
-    <p>     <span>All the students of the department are members of the Departmental Association,  </span>  
-    <span>Society for Advancement of Computer Science and Engineering. </span> 
-    <span>Further to sharpen and share the technical knowledge, all the students of Computer Science and Engineering are members of prestigious technical institutions such as </span>  
-     
-    <span>1. ISTE student’s chapter-Indian Society for Technical Education. </span>  
-    <span>2. IEI student’s chapter- Institution of Engineers India. </span>  
-    <span>All the students of the department are members of the Departmental Association,  </span>  
-    <span>Society for Advancement of Computer Science and Engineering. </span> 
-    <span>Further to sharpen and share the technical knowledge, all the students of Computer Science and Engineering are members of prestigious technical institutions such as </span>  
-     
-    <span>1. ISTE student’s chapter-Indian Society for Technical Education. </span>  
-    <span>2. IEI student’s chapter- Institution of Engineers India. </span>  
-    <span>All the students of the department are members of the Departmental Association,  </span>  
-    <span>Society for Advancement of Computer Science and Engineering. </span> 
-    <span>Further to sharpen and share the technical knowledge, all the students of Computer Science and Engineering are members of prestigious technical institutions such as </span>  
-     
-    <span>1. ISTE student’s chapter-Indian Society for Technical Education. </span>  
-    <span>2. IEI student’s chapter- Institution of Engineers India. </span>  
-     
-      </p>
-             {/* <p>
-  <span>GCE-Salem was started during the Third Plan period in 1966 and is located on a beautiful site surrounded by hills. Its area is 1.62 square kilometres (400 acres). This is the third government engineering institution formed in Tamil Nadu.[1] The first batch of students was selected for 1966 for courses in Civil Engineering</span>
-  <span>GCE-Salem was started during the Third Plan period in 1966 and is located on a beautiful site surrounded by hills. Its area is 1.62 square kilometres (400 acres). This is the third government engineering institution formed in Tamil Nadu.[1] The first batch of students was selected for 1966 for courses in Civil Engineering</span>
-  <span>GCE-Salem was started during the Third Plan period in 1966 and is located on a beautiful site surrounded by hills. Its area is 1.62 square kilometres (400 acres). This is the third government engineering institution formed in Tamil Nadu.[1] The first batch of students was selected for 1966 for courses in Civil Engineering</span>
-  <span>limits</span>
-  <span>to</span>
-  <span>what</span>
-  <span>you</span>
-  <span>can</span>
-  <span>accomplish,</span>
-  <span>except</span>
-  <span>the</span>
-  <span>limits</span>
-  <span>you</span>
-  <span>place</span>
-  <span>on</span>
-  <span>your</span>
-  <span>own</span>
-  <span>thinking.</span>
-</p> */}
-         </div>
-     </div>
-
-
-
-
-
-            <div class="bg"></div>
-
-      <div class="star-field">
-       <div class="layer"></div>
-      <div class="layer"></div>
-     <div class="layer"></div>
-     </div>
-</div>
+  return (
+    <div className='container'>
+              <div class="context">
         
-     );
+    </div>
+
+
+<div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+     <Aboutcse/>
+      <Vedio/>
+       <FacultyCard/>
+        
+        
+       
+      
+    </div>
+  )
 }
+
+export default About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import "./About.css"
+// import FacultyCard from "./FacultyCard";
+// import Particle from "./FacultyCard";
+
  
-export default About;
+// const About = () => {
+  
+//     return ( 
+        
+//         <div className="about">
+
+
+//      <div className="about__container">
+//          <h1>About <span className="us">Us</span></h1>
+       
+//          <div className="about__content">
+    // <p>     <span>All the students of the department are members of the Departmental Association,  </span>  
+    // <span>Society for Advancement of Computer Science and Engineering. </span> 
+    // <span>Further to sharpen and share the technical knowledge, all the students of Computer Science and Engineering are members of prestigious technical institutions such as </span>  
+     
+    // <span>The birth place of futuristic engineering of the future world with creamy  </span>  
+    // <span>bunch of inquisitive brains.With well equipped laboraties and qualified </span>  
+    // <span>staff where experience speaks,the department act as a </span>  
+    // <span>base on which talented and innovative circuitry is built. </span> 
+    // <span>Further to sharpen and share the technical knowledge, all the students of Computer Science and Engineering are members of prestigious technical institutions such as </span>  
+     
+    
+    //   </p>
+             
+//          </div>
+//      </div>
+
+
+
+
+
+    //         <div class="bg"></div>
+
+    //   <div class="star-field">
+    //    <div class="layer"></div>
+    //   <div class="layer"></div>
+    //  <div class="layer"></div>
+    //  </div>
+// </div>
+        
+//      );
+// }
+ 
+// export default About;
+// import React from 'react'
+
+// const About = () => {
+//   return (
+//     <div>
+//         <div class="ui card">
+//   <div class="image">
+//     <img src="/Images/bulb.jpg"/>
+//   </div>
+//   <div class="content">
+//     <a class="header">Kristy</a>
+//     <div class="meta">
+//       <span class="date">Joined in 2013</span>
+//     </div>
+//     <div class="description">
+//       Kristy is an art director living in New York.
+//     </div>
+//   </div>
+//   <div class="extra content">
+//     <a>
+//       <i class="user icon"></i>
+     
+//     </a>
+//   </div>
+// </div>
+//     </div>
+//   )
+// }
+
+// export default About
