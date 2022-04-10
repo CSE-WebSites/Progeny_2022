@@ -12,7 +12,7 @@ const About = () => {
     </div>
 
 
-<div class="area" >
+{/* <div class="area" >
             <ul class="circles">
                     <li></li>
                     <li></li>
@@ -25,7 +25,7 @@ const About = () => {
                     <li></li>
                     <li></li>
             </ul>
-    </div >
+    </div > */}
      <Aboutcse/>
       <Vedio/>
        <FacultyCard/>
