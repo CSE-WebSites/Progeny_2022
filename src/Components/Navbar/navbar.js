@@ -1,7 +1,8 @@
 import "./navbar.css";
 import {useState} from "react";
 import { NavLink } from "react-router-dom";
-
+import progeni_logo from "../../Images/progeni_logo.png";
+import { Link } from "react-router-dom";
 function NavBar(props) {
 
   const [click, setClick] = useState(false);
@@ -18,7 +19,7 @@ function NavBar(props) {
         <div className="nav-container">
 
           <div className="nav-logo">
-            <p>Progeni</p>
+            <Link to="/"><img src={progeni_logo} alt="progeni" /></Link>
           </div>
           
           <ul className={click ? "nav-menu active" : "nav-menu"}>
