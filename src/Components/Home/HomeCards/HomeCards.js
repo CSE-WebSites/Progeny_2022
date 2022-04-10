@@ -10,7 +10,7 @@ const HomeCards = () => {
         },
         {
             name:"PPT",
-            short:"Everything begins with an idea express your marvelous ideas and lets work it out together👊",
+            short:"Everything begins with an idea express your marvellous ideas and lets work it out together👊",
             icon:"fas fa-file-powerpoint"
         },
         {
