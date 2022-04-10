@@ -160,10 +160,27 @@ form .user-details .input-box{
   color: darkblue;
 }
 
+.payment_details{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.register_pay{
+  margin-top: 50px;
+}
+
+.upi_id{
+  margin: 16px 0;
+}
+
+.register_pay > span{
+  color: red;
+  font-weight: 500;
+}
 
 /* blob animation */
 
-.registration_form{
+.registration_form,.register_pay{
   background: rgba( 255, 255, 255, 0.15 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 18px );
@@ -215,6 +232,10 @@ form .user-details .input-box{
 }
 
 @media(max-width:993px){
+
+  .register_pay{
+    margin-top: 30px;
+  }
 
   .blob{
     width: 300px;

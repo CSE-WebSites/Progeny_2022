@@ -6,6 +6,7 @@ import { db } from "../../firebase";
 import axios from "axios";
 import Thanks from "./Thanks";
 import { PulseLoader } from "react-spinners";
+import RegisterPay from "./RegisterPay";
 const Register = ()=>{
 
   const [name,setName]  = useState("");
@@ -173,6 +174,7 @@ return(
     </div>
     <div className="blob"></div> 
     </div>}
+    <RegisterPay/>
   </div>
 );
 }
