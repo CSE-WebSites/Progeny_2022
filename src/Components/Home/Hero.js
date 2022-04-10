@@ -6,7 +6,7 @@ const HeroHome = () => {
             <section className="hero">
                 <div className="content">
                     <h2>Progen<span className="i_progen">i</span> 22.0</h2>
-                    <p>Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non</p>
+                    <p>It is a National Level technical Symposium conducted by Society for Advancement of Computer Science and Engineering (SACSE) in order to nurture and encourage young talents and innovations through different events.</p>
                 </div>
                 <Link to="/register"><button className="btn-hover color-5">Register Now</button></Link>
                 <div className="waves"></div>

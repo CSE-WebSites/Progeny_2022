@@ -64,6 +64,11 @@
     margin-left: 1rem;
   } */
   
+  .nav-logo > a > img{
+    width: 14%;
+    margin-bottom: 16px;
+  }
+
   .nav-item {
     line-height: 40px;
     margin-right: 1rem;
@@ -94,11 +99,17 @@
   }
   
   @media screen and (max-width: 960px) {
+
+    .nav-logo > a > img{
+      width: 27%;
+      margin-bottom: 0;
+    }
+
     .nav-container{
         height: 60px;
     }
     .nav-logo{
-        margin-left: 1.5rem;
+        margin-left: 0;
         font-size: 1.6rem;
     }
 
