@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import React from 'react';
-
+import HomeCards from "./HomeCards/HomeCards";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 
@@ -128,6 +128,10 @@ export default function Events() {
       </Swiper>
 
 
+    
+
+
+
       <div className="area" >
             <ul className="circles">
                     <li></li>
@@ -142,7 +146,23 @@ export default function Events() {
                     <li></li>
             </ul>
     </div >
+        <div>
+           <HomeCards/>
+        </div>     
+       
+        
+
       
+      
+      
+      
+      
+      
+      
+
+
+       
+        
       </div>
     </div>
    
