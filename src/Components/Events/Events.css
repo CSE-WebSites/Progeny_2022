@@ -27,7 +27,9 @@
   transition: all 0.25s ease;
 }
 
-
+.container .swiper-container{
+  top:71% !important;
+}
 .swiper-slide:before {
   position: absolute;
   top: 0px;
@@ -242,7 +244,7 @@ transform: translate(-50%,-195%);
   height: 20px;
   background: rgba(255, 255, 255, 0.2);
   animation: animate 25s linear infinite;
-  bottom: 950px;
+  bottom: 880px;
   
 }
 
