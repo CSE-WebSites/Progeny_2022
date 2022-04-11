@@ -1,4 +1,4 @@
-import "./Homecards.css";
+import "./HomeCards.css";
 // import web from "../../../Images/Home/web.svg"
 const HomeCards = () => {
 

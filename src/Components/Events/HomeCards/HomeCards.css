@@ -139,11 +139,15 @@
       
       
     } */
-
-.home_card_containers{
-  display: flex;
-      flex-direction: column !important;
-}
+  .home_card_containers .home_cards .faces.face1s .contents i{
+    font-size: 3em;
+    color: white;
+  }
+  .home_card_containers{
+    display: flex;
+    padding: 30px;
+        flex-direction: column !important;
+  }
     .home_card_containers .home_cards .faces.face1s{
       display: flex;
       flex-direction: column !important;
