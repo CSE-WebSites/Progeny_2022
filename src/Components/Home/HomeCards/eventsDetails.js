@@ -15,7 +15,7 @@ const items = [
       id: 3,
       name: 'Web Design',
       image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample120.jpg',
-      desc:'Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.'
+      desc:"Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.Colors are a part of design, but that's not all, right!. Come up with a innovative and eye catching design based on the problem statement given."
     },
     {
       id: 4,
@@ -33,7 +33,7 @@ const items = [
       id: 6,
       name: 'Marketing',
       image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample119.jpg',
-      desc:'this is descmar'
+      desc:'You can choose any product or brand and advertise them, The content should be formal, The duration is between 3 to 5 mins'
     },
     {
       id: 7,

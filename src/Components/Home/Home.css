@@ -160,8 +160,11 @@
     outline: none;
 }
 .btn-hover.color-5 {
-    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
-    box-shadow: 0 4px 8px 0 rgba(23, 168, 108, 0.75);
+    /* background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 8px 0 rgba(23, 168, 108, 0.75); */
+    background: black;
+    margin: 22px;
+    box-shadow: 0 4px 8px 0 black;
 }
 
   
