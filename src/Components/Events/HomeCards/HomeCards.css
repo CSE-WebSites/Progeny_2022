@@ -11,6 +11,11 @@
     padding: 50px;
     padding-top: 10px;
   }
+
+  .home_card_containers .home_cards .faces.face1s .contents i{
+    font-size: 3em;
+    color: white;
+  }
   
   .home_card_containers .home_cards{
     position: relative;
@@ -99,13 +104,15 @@
   }
   
   .home_card_containers .home_cards .faces.face2s .contents a{
-    text-decoration:none;
+    text-decoration: none;
     color: black;
     box-sizing: border-box;
-    outline : 1px dashed #333;
     padding: 10px;
-    margin: 15px 0 0;
     display: inline-block;
+  }
+
+  .events_readmore{
+    margin-top: 15px;
   }
   
   .home_card_containers .home_cards .faces.face2s .contents a:hover{
@@ -139,10 +146,7 @@
       
       
     } */
-  .home_card_containers .home_cards .faces.face1s .contents i{
-    font-size: 3em;
-    color: white;
-  }
+  
   .home_card_containers{
     display: flex;
     padding: 30px;

@@ -1,53 +1,54 @@
 import "./HomeCards.css";
 // import web from "../../../Images/Home/web.svg"
+import { Link } from "react-router-dom";
+import items from "../../Home/HomeCards/eventsDetails"
 const HomeCards = () => {
 
     const techEvents = [
         {
             name:"Mr.Engineer",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?",
+            short:"Project your skills extend your knowledge break the limits and design the unimaginable🤟",
             icon:"fas fa-cogs"
         },
         {
-            name:"PPT",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?",
-            icon:"fas fa-file-powerpoint"
-        },
-        {
             name:"Code Debugging",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?",
+            short:"Bugs are the best fuel for a true coder they shape you into the inevitable🤙",
             icon:"fas fa-bug"
         },
         {
             name:"Web Designing",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?",
+            short:"Lets design the most magnificient pages to induce traffic and provide services🙌",
             icon:"fas fa-code"
         },
+        {
+            name:"PPT",
+            short:"Everything begins with an idea express your marvelous ideas and lets work it out together👊",
+            icon:"fas fa-file-powerpoint"
+        }
     ]
 
     const nonTechEvents = [
         {
             name:"Googling",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?",
+            short:"Google is something more than a search engine show off your googling skills and find modern solutions🤘",
             icon:"fab fa-google"
         },
         {
             name:"Marketing",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?",
+            short:"The world is full of ads reveal your new marketing strategies to eliminate these exasperating strategies👊",
             icon:"fas fa-chart-bar"
         },
         {
             name:"Photography",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?",
+            short:"Photographs capture those exciting moments that are gone forever, impossible to recreate🤙",
             icon:"fas fa-photo-video"
         },
         {
             name:"Connection",
-            short:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?",
+            short:"Show case your logical connecting skills and resurge your memory to find solutions for this amazing event🙌",
             icon:"fas fa-network-wired"
         },
     ]
-
 
     return ( 
         <>
@@ -67,7 +68,7 @@ const HomeCards = () => {
                         <div className="faces face2s">
                             <div className="contents">
                             <p>{techEvent.short}</p>
-                            <a href="/" type="button">Read More</a>
+                            <button className="events_readmore"><Link to={`/event/${index+1}`} state={items}>Read More</Link></button>
                             </div>
                         </div>
                     </div>
@@ -90,7 +91,7 @@ const HomeCards = () => {
                         <div className="faces face2s">
                             <div className="contents">
                             <p>{nonTechEvent.short}</p>
-                            <a href="/" type="button">Read More</a>
+                            <button className="events_readmore"><Link to={`/event/${index+5}`} state={items}>Read More</Link></button>
                             </div>
                         </div>
                     </div>
