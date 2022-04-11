@@ -239,12 +239,9 @@
   color: white;
 }
 .area{
-
-  
-    background-color: #2a2a72 !important;
+  height:100vh;
+  background-color: #2a2a72 !important;
   width: 100%;
-  
- 
 }
 
 .circles{
