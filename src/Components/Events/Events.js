@@ -96,41 +96,30 @@ export default function Events() {
       >
           <div className="card">
             
-          {items.map(item=>(
-
-            <div>
-               <SwiperSlide key={item.id} >
-         <div className="image">
-            <img src= {item.image} alt="loading"/>
-         </div>
-        <div className="title">
-                <h4>{item.name} </h4>
-                   <Link to={`/event/${item.id}`} state={items}> 
-             
-              <motion.button
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
-        className="save-button"
-       
-      >
-        Launch modal
-                </motion.button></Link> 
-               
-      </div>
-        </SwiperSlide> 
-</div>
-            
-       
-       ))}
+          {items.map((item,index)=>(
+              <div key={index}>
+                <SwiperSlide >
+                  <div className="image">
+                      <img src= {item.image} alt="loading"/>
+                  </div>
+                  <div className="title">
+                      <h4>{item.name} </h4>
+                      <Link to={`/event/${item.id}`} state={items}> 
+                      <motion.button
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                        className="save-button">
+                        Read More
+                      </motion.button>
+                      </Link>   
+                  </div>
+                </SwiperSlide> 
+              </div> 
+            ))}
         
         </div>
          
       </Swiper>
-
-
-    
-
-
 
       <div className="area" >
             <ul className="circles">
@@ -148,21 +137,7 @@ export default function Events() {
     </div >
         <div>
            <HomeCards/>
-        </div>     
-       
-        
-
-      
-      
-      
-      
-      
-      
-      
-
-
-       
-        
+        </div>        
       </div>
     </div>
    

@@ -46,7 +46,11 @@
   transition-delay: 0.25s;
 }
 
-
+@media (max-width: 768px){
+.swiper-slide {
+ 
+    height: 300px !important;
+}}
 
 @media (max-width: 768px) {
   .swiper-slide {
@@ -63,7 +67,7 @@
      object-fit: cover;
      backface-visibility: hidden;
 
-     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;    }
+     }
 
 .swiper-slide:hover:before {
   top: 0px;
@@ -133,7 +137,7 @@
   width: 70%;
   position: absolute;
   left: 50%;
-  bottom: 0vw;
+ 
 transform: translate(-50%,-195%);
       top:69%;
   z-index: 2;
@@ -142,7 +146,7 @@ transform: translate(-50%,-195%);
 
 @media (max-width: 768px) {
   .container .swiper-container {
-    bottom: -58vw;
+    /* bottom: -58vw; */
     padding-bottom: 8vw;
   }
 }
@@ -192,6 +196,11 @@ transform: translate(-50%,-195%);
 }
 
 @media (max-width: 768px) {
+
+  .swiper-pagination-bullet{
+    width: 23px;
+  }
+
   .title_wrapper .title_ {
     font-size: 7vw;
   }
@@ -213,7 +222,7 @@ transform: translate(-50%,-195%);
 
 .swiper-button-next,  .swiper-button-prev {
   
-  color: black;
+  color: white;
 }
 .area{
 
@@ -244,8 +253,23 @@ transform: translate(-50%,-195%);
   height: 20px;
   background: rgba(255, 255, 255, 0.2);
   animation: animate 25s linear infinite;
-  bottom: 880px;
+  top:600px;
   
+}
+
+
+@media (max-width: 768px){
+  .swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 30px !important;
+  }
+.swiper-button-next, .swiper-button-prev {
+  top: 12%;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+  top: 299px !important;
+}
+
 }
 
 
@@ -255,12 +279,12 @@ transform: translate(-50%,-195%);
 }
 @media (max-width: 768px){
 .container .swiper-container {
-    bottom: -5vw;
+    bottom: -60vw !important;
     
 }}
 @media (max-width: 768px){
  .swiper-slide .title{
-   top:30%;
+  top: 39%;
   }}
 .circles li:nth-child(1){
   left: 25%;
@@ -360,3 +384,22 @@ transform: translate(-50%,-195%);
 ul.circles{
   margin:0px;
 }
+
+
+
+@media (min-width: 1024px){
+  
+
+
+  .container .swiper-container{
+    bottom: -1vw;
+  }
+
+
+}
+
+@media (max-width: 768px){
+  .container .swiper-container {
+    bottom: -30vw;
+      
+  }}

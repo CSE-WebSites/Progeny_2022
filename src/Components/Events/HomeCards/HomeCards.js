@@ -52,20 +52,20 @@ const HomeCards = () => {
     return ( 
         <>
         {/* technical */}
-        <h2 className="home_header">Technical</h2>
-        <div className="home_card_container">
+        <h2 className="home_headers">Technical</h2>
+        <div className="home_card_containers">
             {
                 techEvents.map((techEvent,index)=>(
-                    <div className="home_card" key={index}>
-                        <div className="face face1">
-                            <div className="content">
+                    <div className="home_cards" key={index}>
+                        <div className="faces face1s">
+                            <div className="contents">
                             <i className={techEvent.icon}></i>
                             {/* <img src={web} alt="web" /> */}
                             <h3>{techEvent.name}</h3>
                             </div>
                         </div>
-                        <div className="face face2">
-                            <div className="content">
+                        <div className="faces face2s">
+                            <div className="contents">
                             <p>{techEvent.short}</p>
                             <a href="/" type="button">Read More</a>
                             </div>
@@ -76,19 +76,19 @@ const HomeCards = () => {
         </div>
 
         {/* non-techinical */}
-        <h2 className="home_header">Non Technical</h2>
-        <div className="home_card_container">
+        <h2 className="home_headers">Non Technical</h2>
+        <div className="home_card_containers">
             {
                 nonTechEvents.map((nonTechEvent,index)=>(
-                    <div className="home_card" key={index}>
-                        <div className="face face1">
-                            <div className="content">
+                    <div className="home_cards" key={index}>
+                        <div className="faces face1s">
+                            <div className="contents">
                             <i className={nonTechEvent.icon}></i>            
                             <h3>{nonTechEvent.name}</h3>
                             </div>
                         </div>
-                        <div className="face face2">
-                            <div className="content">
+                        <div className="faces face2s">
+                            <div className="contents">
                             <p>{nonTechEvent.short}</p>
                             <a href="/" type="button">Read More</a>
                             </div>
