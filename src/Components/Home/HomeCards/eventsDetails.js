@@ -21,7 +21,7 @@ const items = [
       id: 4,
       name: 'PPT',
       image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample119.jpg',
-      desc:'Duration: 5 to 7 minutes (5 min presentation +2  min queries) Batch: 2 members Topics: Department related (choosen by participants)  RULES: 1) Slides: 8 slides 2) Background: Light background with bold letters 3) Times new roman4) Each member in a batch should present'
+      desc:'Duration: 5 to 7 minutes (5 min presentation +2  min queries) Batch: 2 members Topics: Department related (choosen by participants)  RULES: 1) Slides: 8 slides 2) Background: Light background with bold letters 3) Times new roman4) Each member in a batch should present. Mail your PPT to progenit22@gmail.com'
     },
     {
       id: 5,
@@ -39,7 +39,7 @@ const items = [
       id: 7,
       name: 'Photography',
       image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample119.jpg',
-      desc:'Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film. Event start from 12/04/2022 to 19/04/2022.'
+      desc:'Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film. It is an online event, Event start from 12/04/2022 to 19/04/2022. participants can submit their art in insta or whatsapp.'
     }
     ,
     {

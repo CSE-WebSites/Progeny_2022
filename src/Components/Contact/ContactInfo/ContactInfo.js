@@ -8,15 +8,15 @@ const ContactInfo = () => {
     const icons = [
         {
             name:"facebook",
-            link:"https://www.facebook.com/Synergy-22-108351131839131/"
+            link:"https://instagram.com/progenit22?igshid=YmMyMTA2M2Y="
         },
         {
             name:"insta",
-            link:"https://instagram.com/synergy_22.0?utm_medium=copy_link"
+            link:"https://instagram.com/progenit22?igshid=YmMyMTA2M2Y="
         },
         {
             name:"mail",
-            link:"mailto:gcesynergy2022@gmail.com"
+            link:"mailto:progenit22@gmail.com"
         }
     ];
 
