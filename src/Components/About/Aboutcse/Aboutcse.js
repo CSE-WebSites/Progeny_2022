@@ -4,9 +4,10 @@ const Aboutcse = () => {
   return (
     <div>
     
-  <div className="ui inverted segment" style={{margin:'30px'}}>
-      <h1>About <span className='cs'>CSE</span></h1>
-      <p>
+  <div className="about_content" >
+    
+      <h1 className='about_head'>About <span className='cs'>CSE</span></h1>
+      <p className='about_text'>
       <span>The Government College of Engineering, Salem in Salem, Tamil Nadu, India,</span>
       <span>is an engineering education center in the state of Tamil Nadu</span>
       <span>It is one of the three institutions offering Metallurgical Engineering as a full-time course in Tamil Nadu.
