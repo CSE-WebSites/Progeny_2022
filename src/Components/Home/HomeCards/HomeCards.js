@@ -1,4 +1,6 @@
 import "./HomeCards.css";
+import { Link } from "react-router-dom";
+import items from "./eventsDetails"
 // import web from "../../../Images/Home/web.svg"
 const HomeCards = () => {
 
@@ -7,11 +9,6 @@ const HomeCards = () => {
             name:"Mr.Engineer",
             short:"Project your skills extend your knowledge break the limits and design the unimaginable🤟",
             icon:"fas fa-cogs"
-        },
-        {
-            name:"PPT",
-            short:"Everything begins with an idea express your marvelous ideas and lets work it out together👊",
-            icon:"fas fa-file-powerpoint"
         },
         {
             name:"Code Debugging",
@@ -23,6 +20,11 @@ const HomeCards = () => {
             short:"Lets design the most magnificient pages to induce traffic and provide services🙌",
             icon:"fas fa-code"
         },
+        {
+            name:"PPT",
+            short:"Everything begins with an idea express your marvelous ideas and lets work it out together👊",
+            icon:"fas fa-file-powerpoint"
+        }
     ]
 
     const nonTechEvents = [
@@ -67,7 +69,7 @@ const HomeCards = () => {
                         <div className="face face2">
                             <div className="content">
                             <p>{techEvent.short}</p>
-                            <a href="/" type="button">Read More</a>
+                            <button className="events_readmore"><Link to={`/event/${index+1}`} state={items}>Read More</Link></button> 
                             </div>
                         </div>
                     </div>
@@ -90,7 +92,7 @@ const HomeCards = () => {
                         <div className="face face2">
                             <div className="content">
                             <p>{nonTechEvent.short}</p>
-                            <a href="/" type="button">Read More</a>
+                            <button className="events_readmore"><Link to={`/event/${index+5}`} state={items}>Read More</Link></button> 
                             </div>
                         </div>
                     </div>
