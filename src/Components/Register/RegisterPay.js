@@ -11,6 +11,7 @@ const RegisterPay = () => {
             <span>Note:</span>
             <ul> 
                 <li>Once you make the payment confirm your registration with <b>Chandru-90470 67413</b> or <b>Surya-6379115344</b></li>
+                <li>By Registering you can participate in all events.</li>
                 <li>For the ease of participants on the spot payment option is also available.</li>
             </ul>
         </div>
