@@ -152,18 +152,13 @@ return(
               <span className="dot two"></span>
               <span className="gender">Non technical</span>
             </label>
+            <label htmlFor="dot-3" onClick={()=>changeEventHandler("All Events")}>
+              <span className="dot three"></span>
+              <span className="gender">All Events</span>
+            </label>
             <br />                     
           </div>
           <br />
-    
-          {/* <div className="payment">
-            <p className="payment1">Payment :</p>
-            <p className="ph">ph:9789784979-(Aravind)<br/>ph:6379115344-(Surya)</p>
-            <p className="upi">UPI ID :</p>
-            <p> Harish@123icici</p>
-            <br />
-            <p>Further Details : <button className="b1" disabled>ph:9047067413-(Chandru)<br />ph:6379115344-(Surya)</button></p>
-          </div>   */}
         </div>
 
         <div className="button">
