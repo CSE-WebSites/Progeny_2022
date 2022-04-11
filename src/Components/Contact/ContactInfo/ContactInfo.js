@@ -34,12 +34,12 @@ const ContactInfo = () => {
                    <div className="number">
                     
                     <div className="contact_number_student">
-                    <div>+91 8461822154,</div>
+                    <div>+91 9047067413,</div>
                     <div>(Chandru)</div>
                     </div>
                     
                     <div className="contact_number_student">
-                    <div>+91 7548495315</div>
+                    <div>+91 6379115344</div>
                     <div>(Surya)</div>
                     </div>
 
