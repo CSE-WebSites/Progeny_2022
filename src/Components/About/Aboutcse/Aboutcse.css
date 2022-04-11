@@ -7,12 +7,15 @@
   line-height: 1.8em;
   font-size:17px;
   padding:20px;
- 
+margin-bottom:0px;
+text-align: justify;
 }
 
 .about_head{
  margin-left:10px;
-  margin-top:20p x;
-  
+  margin-top:20px;
+padding-left:10px;
+  font-size:34px;
   border-left: 5px solid black;
 }
+

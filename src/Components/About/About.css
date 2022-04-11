@@ -24,11 +24,18 @@
     flex-direction: column;
     letter-spacing: 2px;
     line-height: 2;
-    /* padding-bottom: ; */
+ 
+  }
+
+  @media (max-width: 768px) {
+    .hero_ele .titles {
+      font-size: 30px !important;
+      
+    }
   }
   
-  .hero_ele .title {
-    font-size: 20px;
+  .hero_ele .titles {
+    font-size: 59px;
     font-weight: bold;
   }
   
@@ -42,8 +49,11 @@
   
   .content_download {
     padding-top: 50px;
+    align-items: center;
   }
-  
+  .ptag{
+    text-align: center;
+  }
   .content_download p a {
     color: #000;
     text-decoration: none;
@@ -56,10 +66,10 @@
     letter-spacing: 1px;
     border: 1px solid #000;
   }
+  
   .content_download p a:hover {
     background: #000;
     color: #fff;
-    -webkit-transition: all 0.3s linear;      
+    -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
   }
-  

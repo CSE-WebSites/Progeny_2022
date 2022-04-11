@@ -6,24 +6,22 @@ import './About.css'
 
 const Hero = () => {
   return (
-    <div >
-      
-        
-
-
-
-      <div className="head_bg">
-
-    <div className="heroo">
-      <div className="wrapper">
-        <div className="hero_ele">
-          <p className="title">About Us</p>
-        </div>
-      </div>
+  <div className="head_bg">
+   <div className="heroo">
+    <div className="hero_ele">
+          <p className="titles">About Us</p>
     </div>
-  </div>
- 
-    </div>
+
+
+    <div className="content_download">
+            <p className='ptag'>
+              <a href="https://gcesalem.edu.in/" download>
+                To Know
+              </a>
+            </p>
+          </div>
+ </div>
+</div>
   )
 }
 
