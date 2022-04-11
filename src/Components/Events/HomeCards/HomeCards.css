@@ -113,6 +113,21 @@
     color: whitesmoke; 
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
   }
+
+
+
+  @media (max-width: 1280px){
+  
+
+
+    .home_card_containers{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      /* flex-direction: column !important; */
+    }
+  
+  
+  }
   
  @media(max-width:993px){
     /* .home_card_containers{
