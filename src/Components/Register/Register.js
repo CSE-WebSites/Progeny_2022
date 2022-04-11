@@ -147,7 +147,6 @@ return(
               <span className="dot one"></span>
               <span className="gender">Technical</span>
             </label>
-            <br />
             <label htmlFor="dot-2" onClick={()=>changeEventHandler("Non-Technical")}>
               <span className="dot two"></span>
               <span className="gender">Non technical</span>
