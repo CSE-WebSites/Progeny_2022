@@ -59,7 +59,7 @@
   .content_download p a:hover {
     background: #000;
     color: #fff;
-    -webkit-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;      
     transition: all 0.3s linear;
   }
   

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import React from 'react';
-
+import HomeCards from "./HomeCards/HomeCards";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 
@@ -75,74 +75,71 @@ export default function Events() {
     <div className="container">
      
      <div className="card-wrapper">
-     
-      <Swiper
-        navigation={true}
-        effect={"coverflow"}
-        centeredSlides={true}
-        slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
-        loop={true}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true
-        }}
-        pagination={{
-          clickable: true
-        }}
-        className="mySwiper"
-      >
-          <div className="card">
+        <div className="events_hero">
+            <h2 className="events_title">Events</h2>
+            <Swiper
+            navigation={true}
+            effect={"coverflow"}
+            centeredSlides={true}
+            slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
+            loop={true}
+            coverflowEffect={{
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true
+            }}
+            pagination={{
+              clickable: true
+            }}
+            className="mySwiper"
+          >
+              <div className="card">
+                
+              {items.map((item,index)=>(
+                  <div key={index}>
+                    <SwiperSlide >
+                      <div className="image">
+                          <img src= {item.image} alt="loading"/>
+                      </div>
+                      <div className="title">
+                          <h4>{item.name} </h4>
+                          <Link to={`/event/${item.id}`} state={items}> 
+                          <motion.button
+                            whileHover={{ scale: 1.1 }}
+                            whileTap={{ scale: 0.9 }}
+                            className="save-button">
+                            Read More
+                          </motion.button>
+                          </Link>   
+                      </div>
+                    </SwiperSlide> 
+                  </div> 
+                ))}
             
-          {items.map(item=>(
+            </div>
+            
+          </Swiper>
 
-            <div>
-               <SwiperSlide key={item.id} >
-         <div className="image">
-            <img src= {item.image} alt="loading"/>
-         </div>
-        <div className="title">
-                <h4>{item.name} </h4>
-                   <Link to={`/event/${item.id}`} state={items}> 
-             
-              <motion.button
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
-        className="save-button"
-       
-      >
-        Launch modal
-                </motion.button></Link> 
-               
-      </div>
-        </SwiperSlide> 
-</div>
-            
-       
-       ))}
-        
+          <div className="area" >
+                <ul className="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                </ul>
+        </div >
         </div>
-         
-      </Swiper>
-
-
-      <div className="area" >
-            <ul className="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-    </div >
-      
+        <div>
+           <HomeCards/>
+        </div>        
       </div>
     </div>
    

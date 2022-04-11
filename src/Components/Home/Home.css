@@ -37,7 +37,7 @@
   .hero p {
     position: relative;
     z-index: 1;
-    font-size: 14px;
+    font-size: 16px;
     text-align: justify;
     color: rgba(255, 255, 255, 0.5);
     line-height: 1.4;
@@ -148,6 +148,9 @@
 
   
   @media(max-width:993px){
+    .hero p{
+      font-size: 14px;
+    }
     .home_intro{
       margin: 30px 30px 0px;
       text-align: justify;
