@@ -4,20 +4,33 @@
   
 .i_progen{
   color: #0ba360;
-  font-size: 85px;
+  font-size: 40px;
 }
+  .dept_name{
+    margin: 25px 0px;
+  }
+
+
 
   .content {
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 0 20px;
+    margin-top: 50px;
+  }
+
+  .content h3{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
   }
   
   .hero {
     position: relative;
     background: #333333;
     color: white;
-    height: 88vh;
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
@@ -34,6 +47,11 @@
     color: rgba(255, 255, 255, 0.9);
   }
   
+  .content > h2{
+    font-size: 30px;
+    text-align: center;
+  }
+
   .hero p {
     position: relative;
     z-index: 1;
@@ -151,18 +169,24 @@
     .hero p{
       font-size: 14px;
     }
+    .content h3{
+      font-size: 22px;
+    }
+    .dept_name{
+      font-size: 16px !important;
+    }
     .home_intro{
       margin: 30px 30px 0px;
       text-align: justify;
     }
     .i_progen{
-      font-size: 40px;
+      font-size: 32px;
     }
     .waves{
         height: 160px;
     }
     .hero h2{
-        font-size: 35px;
+        font-size: 16px;
     }
     .btn-hover{
 		width: 150px;
@@ -172,7 +196,6 @@
 	}
     .hero{
         flex-direction: column;
-        padding-top:75px;
         justify-content: inherit;
     }
   }
