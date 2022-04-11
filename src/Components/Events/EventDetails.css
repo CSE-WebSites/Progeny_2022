@@ -5,23 +5,20 @@
     padding: 0px;
 }
 
-
-
-
-.context {
-
+.event_details {
  background-color: white;
- 
+ margin: 0 20px;
+ text-align: justify;
 }
 
-.context h1{
+.event_details h1{
     text-align: center;
     color: rgb(72, 9, 247);
     font-size: 40px;
     margin-top: 21px;
     margin-bottom: 37px;
 }
-.context .desc{
+.event_details .desc{
 
 
   text-transform: uppercase;
@@ -30,7 +27,7 @@
 
 }
 
-.context p{
+.event_details p{
   margin: 18px 2px;
 
   font-size: 16px;
