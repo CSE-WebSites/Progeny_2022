@@ -47,9 +47,9 @@ function Footer()
   
             <div className="col-md-4 col-sm-6 col-xs-12">
               <ul className="social-icons">
-                <li><a className="facebook" href="https://www.instagram.com/invites/contact/?i=60s4ej5h8vp4&utm_content=o7gr8n4" target="_blank" rel="noreferrer"><i className="fa fa-instagram"></i></a></li>
+                <li><a className="facebook" href="https://instagram.com/progenit22?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer"><i className="fa fa-instagram"></i></a></li>
                 <li><a className="twitter" href="mailto:progenit22@gmail.com" target="_blank" rel="noreferrer"><i className="fa fa-envelope"></i></a></li>
-                <li><a className="dribbble" href="https://wa.me/9047067413" target="_blank" rel="noreferrer"><i className="fa fa-whatsapp" ></i></a></li>  
+                <li><a className="dribbble" href="https://wa.me/919047067413" target="_blank" rel="noreferrer"><i className="fa fa-whatsapp" ></i></a></li>
               </ul>
             </div>
           </div>
