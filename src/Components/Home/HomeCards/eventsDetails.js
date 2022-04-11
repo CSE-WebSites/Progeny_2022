@@ -39,7 +39,7 @@ const items = [
       id: 7,
       name: 'Photography',
       image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample119.jpg',
-      desc:'Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.'
+      desc:'Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film. Event start from 12/04/2022 to 19/04/2022.'
     }
     ,
     {
