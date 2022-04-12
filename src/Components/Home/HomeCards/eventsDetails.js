@@ -9,7 +9,7 @@ const items = [
       id: 2,
       name: 'Debugging ',
       image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample120.jpg',
-      desc: ["Have you ever wandered your thoughts on many sleepless nights about the code you wrote a week ago? Well there is no time for that here."," Come up with your best algos within the time given."]
+      desc: ["Debugging, in computer programming and engineering, is a multistep process that involves identifying a problem, isolating the source of the problem and then either correcting the problem or determining a way to work around it.","Debugging is an important part of determining why an operating system, application or program is misbehaving.","Even if developers use the same coding standard,its more than likely that a new software program will still have bugs.","In many cases, the process of debugging a new software program can take more time than it took to write the program.","Invariably, the bugs in software components that get the most use are found and fixed first."]
     },
     {
       id: 3,
@@ -27,13 +27,13 @@ const items = [
       id: 5,
       name: 'Googling',
       image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample119.jpg',
-      desc:["Search for information about images on the internet using the search engine Google.","Search the image in  the speed of the neuron","The Act of using Google Search engine is known colloquially as Googling. Due to the dominance of the Google search engine,to google has become a Transitive verb","Duration: 1st round - 10 minutes > 2nd round - 10 minutes.","No of image to be given : 10 for each round.","Rules: Dont use Google lens.Dont use image recognition software."],
+      desc:["Search for information about images on the internet using the search engine Google.","Search the image in  the speed of the neuron","The Act of using Google Search engine is known colloquially as Googling. Due to the dominance of the Google search engine,to google has become a Transitive verb","Duration: 1st round - 10 minutes > 2nd round - 10 minutes.","No of image to be given : 10 for each round.","Rules: Dont use Google lens.Dont use image recognition software."]
     },
     {
       id: 6,
       name: 'Marketing',
       image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample119.jpg',
-      desc:'You can choose any product or brand and advertise them, The content should be formal, The duration is between 3 to 5 mins'
+      desc:['You can choose any product or brand and advertise them, The content should be formal, The duration is between 3 to 5 mins']
     },
     {
       id: 7,
