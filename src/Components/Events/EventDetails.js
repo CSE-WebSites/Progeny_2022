@@ -18,8 +18,14 @@ export default function EventDetails(props) {
     <div>
       <div className="event_details">
         <h1>{ findBlog.name}</h1>
-        <label className='desc'>Description</label>
-        <p>&nbsp;&nbsp;&nbsp;{ findBlog.desc}</p>
+        <label className='desc'>GUIDELINES</label>
+        <ul>
+        {
+          findBlog.desc.map((points,index)=>( 
+              <li className='points' key={index}>{points}</li>
+          ))
+        }
+        </ul>
       </div>     
       </div>
   );
