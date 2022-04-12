@@ -37,7 +37,7 @@ export default function Events() {
       id: 4,
       name: 'PPT',
       image: 'ppt',
-      desc:['Duration: 5 to 7 minutes (5 min presentation +2  min queries) Batch: 2 members Topics: Department related (choosen by participants)  RULES: 1) Slides: 8 slides 2) Background: Light background with bold letters 3) Times new roman4) Each member in a batch should present. Mail your PPT to progenit22@gmail.com']
+      desc:['One or two members per team is only allowed.',"Only technical topics should be chosen related to Computer Science.","Abstract should be in IEEE Format with 6-8 slides.","Own project ideas are also welcomed.","Time Duration : 5 to 7 minutes (5 minutes for presentation and next 2 minutes for queries)","Explanation should be in English.","Abstract must be sent to the below email id before specified date (End date : 17-04-2022).","Abstracts will be shortlisted and notified to the respected batch members on 18-04-2022.","Mail your PPT to progenit22@gmail.com"]
     },
     {
       id: 5,
