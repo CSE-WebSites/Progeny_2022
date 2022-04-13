@@ -31,7 +31,7 @@ export default function Events() {
       id: 3,
       name: 'Web Design',
       image: 'web',
-      desc:["Web design refers to the design of websites that are displayed on the internet.","It usually refers to the user experience aspects of website development rather than software development.","Colors are a part of design, but that's not all, right!.","Come up with a innovative and eye catching design based on the problem statement given."]
+      desc:["You will be provided with an image for designing."," Try to design it using HTML, CSS ,JS, React or any other web dev tools.","Total time allotted for this event is 1 hr","You can bring your own laptop"]
     },
     {
       id: 4,
