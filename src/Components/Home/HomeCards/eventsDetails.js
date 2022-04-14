@@ -15,7 +15,7 @@ const items = [
       id: 3,
       name: 'Web Design',
       image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample120.jpg',
-      desc:["You will be provided with an image for designing."," Try to design it using HTML, CSS ,JS, React or any other web dev tools.","Total time allotted for this event is 1 hr","You can bring your own laptop"]
+      desc:["You will be provided with an Image which you have to recreate.","Try to design it using HTML, CSS ,JS, React or any other libraries or frameworks.","Total time allotted for this event is 1 hr","You can bring your own laptop","Note: Using No code tools like Wordpress are not allowed."]
     },
     {
       id: 4,
