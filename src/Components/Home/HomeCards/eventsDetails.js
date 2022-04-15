@@ -21,7 +21,7 @@ const items = [
       id: 4,
       name: 'PPT',
       image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample119.jpg',
-      desc:['One or two members per team is only allowed.',"Only technical topics should be chosen related to Computer Science.","Abstract should be in IEEE Format with 6-8 slides.","Own project ideas are also welcomed.","Time Duration : 5 to 7 minutes (5 minutes for presentation and next 2 minutes for queries)","Explanation should be in English.","Abstract must be sent to the below email id before specified date (End date : 17-04-2022).","Abstracts will be shortlisted and notified to the respected batch members on 18-04-2022.","Mail your PPT to progenit22@gmail.com"]
+      desc:['One or two members per team is only allowed.',"Only technical topics should be chosen related to Computer Science.","Abstract should be in IEEE Format with 1 to 2 pages.","PPT should contain maximum of 10 slides.","Own project ideas are also welcomed.","Time Duration : 6 to 8 minutes (6 minutes for presentation and next 2 minutes for queries)","Explanation should be in English.","Abstract must be sent to the below email id before specified date (End date : 17-04-2022).","Abstracts will be shortlisted and notified to the respected batch members on 18-04-2022.","Mail your PPT to progenit22@gmail.com","If any queries contact these numbers: Balaji Jayaraman : +91 9384575063 || Sanmathi Kumar : +91 9498828017"]
     },
     {
       id: 5,
