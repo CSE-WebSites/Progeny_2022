@@ -25,7 +25,7 @@ export default function Events() {
       id: 2,
       name: 'Debugging ',
       image: 'debug',
-      desc: ["Debugging, in computer programming and engineering, is a multistep process that involves identifying a problem, isolating the source of the problem and then either correcting the problem or determining a way to work around it.","Debugging is an important part of determining why an operating system, application or program is misbehaving.","Even if developers use the same coding standard,its more than likely that a new software program will still have bugs.","In many cases, the process of debugging a new software program can take more time than it took to write the program.","Invariably, the bugs in software components that get the most use are found and fixed first."]
+      desc: ["1. Round 1 will be the MCQ challenge. 15 questions will be there and need to solve that in 20 minutes"," 2. Based on the scores, shortlisted members will move to Round 2 where they need to solve 2 coding problems"]
     },
     {
       id: 3,
