@@ -3,9 +3,15 @@
     grid-template-columns: repeat(4,1fr);
     column-gap: 8px;
 }
+.closed{
+        text-align: center;
+}
 .count-down{
     position: relative;
     z-index: 1;
+    margin: 30px 0;
+    font-size: 20px;
+    font-weight: 600;
 }
 .count_down{
   margin-top: 20px;

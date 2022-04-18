@@ -2,9 +2,8 @@ import Countdown from "react-countdown";
 import "./CountDown.css";
 const CountDown = ()=>{
 
-    const end = new Date(2022,3,20);
-
-    const Completionist = () => <span>You are good to go!</span>;
+    const end = new Date(2022,3,17);
+    const Completionist = () => <div className="closed">Registration closed!</div>;
 
     const renderer = ({ days,hours, minutes, seconds, completed }) => {
         if (completed) {
@@ -39,7 +38,6 @@ const CountDown = ()=>{
 
     return(
         <div className="count-down">
-            <p>Registration Ends In :</p>
            <Countdown date={end.getTime()} renderer={renderer}>
                <Completionist/>
            </Countdown>

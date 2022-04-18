@@ -100,7 +100,8 @@ return(
     
     <div className="content">
       
-      <form onSubmit={RegisterFormHandler}>
+      {/* <form onSubmit={RegisterFormHandler}> */}
+      <form >
         <div className="user-details">
 
           <div className="input-box">

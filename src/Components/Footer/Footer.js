@@ -30,7 +30,7 @@ function Footer()
               <ul className="footer-links"> 
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/events">Events</Link></li>
-                <li><Link to="/register">Register</Link></li>
+                <li><Link to="#">Register</Link></li>
                 <li><Link to="/about-us">About us</Link></li>
                 <li><Link to="/contact-us">Contact Us</Link></li>
               </ul>

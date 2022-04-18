@@ -1,5 +1,5 @@
 import "./Home.css";
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 import CountDown from "./CountDown/CountDown";
 import Count from "./Count/Count";
 const HeroHome = () => {
@@ -14,7 +14,7 @@ const HeroHome = () => {
                     <CountDown/>
                     <Count/>
                 </div>
-                <Link to="/register"><button className="btn-hover color-5">Register Now</button></Link>
+                {/* <Link to="/register"><button className="btn-hover color-5">Register Now</button></Link> */}
                 <div className="waves"></div>
             </section>
         </div>
